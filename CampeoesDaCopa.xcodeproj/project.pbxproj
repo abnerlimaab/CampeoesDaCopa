@@ -66,6 +66,7 @@
 		732D60C629C74CFE00CF48FA /* WorldCup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 732D60C529C74CFE00CF48FA /* WorldCup.swift */; };
 		732D60C929C79E5E00CF48FA /* WorldCupTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 732D60C829C79E5E00CF48FA /* WorldCupTableViewCell.swift */; };
 		732D60CA29C7A32500CF48FA /* Uruguai.png in Resources */ = {isa = PBXBuildFile; fileRef = 732D60BB29C749F200CF48FA /* Uruguai.png */; };
+		732D60CC29C7C6F000CF48FA /* GamesTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 732D60CB29C7C6F000CF48FA /* GamesTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -130,6 +131,7 @@
 		732D60C329C74CAA00CF48FA /* WorldCupViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorldCupViewController.swift; sourceTree = "<group>"; };
 		732D60C529C74CFE00CF48FA /* WorldCup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorldCup.swift; sourceTree = "<group>"; };
 		732D60C829C79E5E00CF48FA /* WorldCupTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorldCupTableViewCell.swift; sourceTree = "<group>"; };
+		732D60CB29C7C6F000CF48FA /* GamesTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GamesTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -246,6 +248,7 @@
 				732D60C029C74C4D00CF48FA /* WinnersTableViewController.swift */,
 				732D60C329C74CAA00CF48FA /* WorldCupViewController.swift */,
 				732D60C829C79E5E00CF48FA /* WorldCupTableViewCell.swift */,
+				732D60CB29C7C6F000CF48FA /* GamesTableViewCell.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -382,6 +385,7 @@
 				732D60C129C74C4D00CF48FA /* WinnersTableViewController.swift in Sources */,
 				732D5FB429C7487900CF48FA /* AppDelegate.swift in Sources */,
 				732D60C629C74CFE00CF48FA /* WorldCup.swift in Sources */,
+				732D60CC29C7C6F000CF48FA /* GamesTableViewCell.swift in Sources */,
 				732D60C929C79E5E00CF48FA /* WorldCupTableViewCell.swift in Sources */,
 				732D60C429C74CAA00CF48FA /* WorldCupViewController.swift in Sources */,
 				732D5FB629C7487900CF48FA /* SceneDelegate.swift in Sources */,
