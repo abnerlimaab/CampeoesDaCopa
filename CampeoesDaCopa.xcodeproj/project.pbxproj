@@ -9,21 +9,125 @@
 /* Begin PBXBuildFile section */
 		732D5FB429C7487900CF48FA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 732D5FB329C7487900CF48FA /* AppDelegate.swift */; };
 		732D5FB629C7487900CF48FA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 732D5FB529C7487900CF48FA /* SceneDelegate.swift */; };
-		732D5FB829C7487900CF48FA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 732D5FB729C7487900CF48FA /* ViewController.swift */; };
 		732D5FBB29C7487900CF48FA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 732D5FB929C7487900CF48FA /* Main.storyboard */; };
 		732D5FBD29C7487A00CF48FA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 732D5FBC29C7487A00CF48FA /* Assets.xcassets */; };
 		732D5FC029C7487A00CF48FA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 732D5FBE29C7487A00CF48FA /* LaunchScreen.storyboard */; };
+		732D608B29C749E200CF48FA /* Noruega.png in Resources */ = {isa = PBXBuildFile; fileRef = 732D605B29C749E100CF48FA /* Noruega.png */; };
+		732D608C29C749E200CF48FA /* Suíça.png in Resources */ = {isa = PBXBuildFile; fileRef = 732D605C29C749E100CF48FA /* Suíça.png */; };
+		732D608D29C749E200CF48FA /* Gana.png in Resources */ = {isa = PBXBuildFile; fileRef = 732D605D29C749E100CF48FA /* Gana.png */; };
+		732D608E29C749E200CF48FA /* França.png in Resources */ = {isa = PBXBuildFile; fileRef = 732D605E29C749E100CF48FA /* França.png */; };
+		732D608F29C749E200CF48FA /* Honduras.png in Resources */ = {isa = PBXBuildFile; fileRef = 732D605F29C749E100CF48FA /* Honduras.png */; };
+		732D609029C749E200CF48FA /* Costa Rica.png in Resources */ = {isa = PBXBuildFile; fileRef = 732D606029C749E100CF48FA /* Costa Rica.png */; };
+		732D609129C749E200CF48FA /* Chile.png in Resources */ = {isa = PBXBuildFile; fileRef = 732D606129C749E100CF48FA /* Chile.png */; };
+		732D609229C749E200CF48FA /* Coréia do Sul.png in Resources */ = {isa = PBXBuildFile; fileRef = 732D606229C749E100CF48FA /* Coréia do Sul.png */; };
+		732D609329C749E200CF48FA /* Bolívia.png in Resources */ = {isa = PBXBuildFile; fileRef = 732D606329C749E100CF48FA /* Bolívia.png */; };
+		732D609429C749E200CF48FA /* Itália.png in Resources */ = {isa = PBXBuildFile; fileRef = 732D606429C749E100CF48FA /* Itália.png */; };
+		732D609529C749E200CF48FA /* Alemanha Ocidental.png in Resources */ = {isa = PBXBuildFile; fileRef = 732D606529C749E100CF48FA /* Alemanha Ocidental.png */; };
+		732D609629C749E200CF48FA /* África do Sul.png in Resources */ = {isa = PBXBuildFile; fileRef = 732D606629C749E100CF48FA /* África do Sul.png */; };
+		732D609729C749E200CF48FA /* Emirados Árabes.png in Resources */ = {isa = PBXBuildFile; fileRef = 732D606729C749E100CF48FA /* Emirados Árabes.png */; };
+		732D609829C749E200CF48FA /* Austrália.png in Resources */ = {isa = PBXBuildFile; fileRef = 732D606829C749E100CF48FA /* Austrália.png */; };
+		732D609929C749E200CF48FA /* Peru.png in Resources */ = {isa = PBXBuildFile; fileRef = 732D606929C749E100CF48FA /* Peru.png */; };
+		732D609A29C749E200CF48FA /* Polônia.png in Resources */ = {isa = PBXBuildFile; fileRef = 732D606A29C749E100CF48FA /* Polônia.png */; };
+		732D609B29C749E200CF48FA /* Argentina.png in Resources */ = {isa = PBXBuildFile; fileRef = 732D606B29C749E100CF48FA /* Argentina.png */; };
+		732D609C29C749E200CF48FA /* Alemanha.png in Resources */ = {isa = PBXBuildFile; fileRef = 732D606C29C749E100CF48FA /* Alemanha.png */; };
+		732D609D29C749E200CF48FA /* República Tcheca.png in Resources */ = {isa = PBXBuildFile; fileRef = 732D606D29C749E100CF48FA /* República Tcheca.png */; };
+		732D609E29C749E200CF48FA /* Croácia.png in Resources */ = {isa = PBXBuildFile; fileRef = 732D606E29C749E100CF48FA /* Croácia.png */; };
+		732D609F29C749E200CF48FA /* Dinamarca.png in Resources */ = {isa = PBXBuildFile; fileRef = 732D606F29C749E100CF48FA /* Dinamarca.png */; };
+		732D60A029C749E200CF48FA /* Portugal.png in Resources */ = {isa = PBXBuildFile; fileRef = 732D607029C749E100CF48FA /* Portugal.png */; };
+		732D60A129C749E200CF48FA /* Rússia.png in Resources */ = {isa = PBXBuildFile; fileRef = 732D607129C749E100CF48FA /* Rússia.png */; };
+		732D60A229C749E200CF48FA /* União Soviética.png in Resources */ = {isa = PBXBuildFile; fileRef = 732D607229C749E100CF48FA /* União Soviética.png */; };
+		732D60A329C749E200CF48FA /* Paraguai.png in Resources */ = {isa = PBXBuildFile; fileRef = 732D607329C749E100CF48FA /* Paraguai.png */; };
+		732D60A429C749E200CF48FA /* China.png in Resources */ = {isa = PBXBuildFile; fileRef = 732D607429C749E100CF48FA /* China.png */; };
+		732D60A529C749E200CF48FA /* Inglaterra.png in Resources */ = {isa = PBXBuildFile; fileRef = 732D607529C749E100CF48FA /* Inglaterra.png */; };
+		732D60A629C749E200CF48FA /* Holanda.png in Resources */ = {isa = PBXBuildFile; fileRef = 732D607629C749E100CF48FA /* Holanda.png */; };
+		732D60A729C749E200CF48FA /* Ucrânia.png in Resources */ = {isa = PBXBuildFile; fileRef = 732D607729C749E100CF48FA /* Ucrânia.png */; };
+		732D60A829C749E200CF48FA /* Camarões.png in Resources */ = {isa = PBXBuildFile; fileRef = 732D607829C749E100CF48FA /* Camarões.png */; };
+		732D60A929C749E200CF48FA /* Arábia Saudita.png in Resources */ = {isa = PBXBuildFile; fileRef = 732D607929C749E100CF48FA /* Arábia Saudita.png */; };
+		732D60AA29C749E200CF48FA /* Alemanha Oriental.png in Resources */ = {isa = PBXBuildFile; fileRef = 732D607A29C749E100CF48FA /* Alemanha Oriental.png */; };
+		732D60AB29C749E200CF48FA /* Hungria.png in Resources */ = {isa = PBXBuildFile; fileRef = 732D607B29C749E100CF48FA /* Hungria.png */; };
+		732D60AC29C749E200CF48FA /* Iugoslávia.png in Resources */ = {isa = PBXBuildFile; fileRef = 732D607C29C749E100CF48FA /* Iugoslávia.png */; };
+		732D60AD29C749E200CF48FA /* Brasil.png in Resources */ = {isa = PBXBuildFile; fileRef = 732D607D29C749E100CF48FA /* Brasil.png */; };
+		732D60AE29C749E200CF48FA /* Espanha.png in Resources */ = {isa = PBXBuildFile; fileRef = 732D607E29C749E100CF48FA /* Espanha.png */; };
+		732D60AF29C749E200CF48FA /* Bulgária.png in Resources */ = {isa = PBXBuildFile; fileRef = 732D607F29C749E100CF48FA /* Bulgária.png */; };
+		732D60B029C749E200CF48FA /* México.png in Resources */ = {isa = PBXBuildFile; fileRef = 732D608029C749E100CF48FA /* México.png */; };
+		732D60B129C749E200CF48FA /* Áustria.png in Resources */ = {isa = PBXBuildFile; fileRef = 732D608129C749E100CF48FA /* Áustria.png */; };
+		732D60B229C749E200CF48FA /* Colômbia.png in Resources */ = {isa = PBXBuildFile; fileRef = 732D608229C749E100CF48FA /* Colômbia.png */; };
+		732D60B329C749E200CF48FA /* Romênia.png in Resources */ = {isa = PBXBuildFile; fileRef = 732D608329C749E100CF48FA /* Romênia.png */; };
+		732D60B429C749E200CF48FA /* Tchecoslováquia.png in Resources */ = {isa = PBXBuildFile; fileRef = 732D608429C749E100CF48FA /* Tchecoslováquia.png */; };
+		732D60B529C749E200CF48FA /* Suécia.png in Resources */ = {isa = PBXBuildFile; fileRef = 732D608529C749E100CF48FA /* Suécia.png */; };
+		732D60B629C749E200CF48FA /* País de Gales.png in Resources */ = {isa = PBXBuildFile; fileRef = 732D608629C749E200CF48FA /* País de Gales.png */; };
+		732D60B729C749E200CF48FA /* Estados Unidos.png in Resources */ = {isa = PBXBuildFile; fileRef = 732D608729C749E200CF48FA /* Estados Unidos.png */; };
+		732D60B829C749E200CF48FA /* Turquia.png in Resources */ = {isa = PBXBuildFile; fileRef = 732D608829C749E200CF48FA /* Turquia.png */; };
+		732D60B929C749E200CF48FA /* Argélia.png in Resources */ = {isa = PBXBuildFile; fileRef = 732D608929C749E200CF48FA /* Argélia.png */; };
+		732D60BA29C749E200CF48FA /* Bélgica.png in Resources */ = {isa = PBXBuildFile; fileRef = 732D608A29C749E200CF48FA /* Bélgica.png */; };
+		732D60BC29C749F200CF48FA /* Uruguai.png in Resources */ = {isa = PBXBuildFile; fileRef = 732D60BB29C749F200CF48FA /* Uruguai.png */; };
+		732D60BE29C74A1A00CF48FA /* winners.json in Resources */ = {isa = PBXBuildFile; fileRef = 732D60BD29C74A1A00CF48FA /* winners.json */; };
+		732D60C129C74C4D00CF48FA /* WinnersTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 732D60C029C74C4D00CF48FA /* WinnersTableViewController.swift */; };
+		732D60C429C74CAA00CF48FA /* WorldCupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 732D60C329C74CAA00CF48FA /* WorldCupViewController.swift */; };
+		732D60C629C74CFE00CF48FA /* WorldCup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 732D60C529C74CFE00CF48FA /* WorldCup.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		732D5FB029C7487900CF48FA /* CampeoesDaCopa.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CampeoesDaCopa.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		732D5FB329C7487900CF48FA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		732D5FB529C7487900CF48FA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		732D5FB729C7487900CF48FA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		732D5FBA29C7487900CF48FA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		732D5FBC29C7487A00CF48FA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		732D5FBF29C7487A00CF48FA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		732D5FC129C7487A00CF48FA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		732D605B29C749E100CF48FA /* Noruega.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Noruega.png; path = "../../../../../Downloads/Arquivos CampeoesDaCopa/Bandeiras/Noruega.png"; sourceTree = "<group>"; };
+		732D605C29C749E100CF48FA /* Suíça.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Suíça.png"; path = "../../../../../Downloads/Arquivos CampeoesDaCopa/Bandeiras/Suíça.png"; sourceTree = "<group>"; };
+		732D605D29C749E100CF48FA /* Gana.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Gana.png; path = "../../../../../Downloads/Arquivos CampeoesDaCopa/Bandeiras/Gana.png"; sourceTree = "<group>"; };
+		732D605E29C749E100CF48FA /* França.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "França.png"; path = "../../../../../Downloads/Arquivos CampeoesDaCopa/Bandeiras/França.png"; sourceTree = "<group>"; };
+		732D605F29C749E100CF48FA /* Honduras.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Honduras.png; path = "../../../../../Downloads/Arquivos CampeoesDaCopa/Bandeiras/Honduras.png"; sourceTree = "<group>"; };
+		732D606029C749E100CF48FA /* Costa Rica.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Costa Rica.png"; path = "../../../../../Downloads/Arquivos CampeoesDaCopa/Bandeiras/Costa Rica.png"; sourceTree = "<group>"; };
+		732D606129C749E100CF48FA /* Chile.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Chile.png; path = "../../../../../Downloads/Arquivos CampeoesDaCopa/Bandeiras/Chile.png"; sourceTree = "<group>"; };
+		732D606229C749E100CF48FA /* Coréia do Sul.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Coréia do Sul.png"; path = "../../../../../Downloads/Arquivos CampeoesDaCopa/Bandeiras/Coréia do Sul.png"; sourceTree = "<group>"; };
+		732D606329C749E100CF48FA /* Bolívia.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Bolívia.png"; path = "../../../../../Downloads/Arquivos CampeoesDaCopa/Bandeiras/Bolívia.png"; sourceTree = "<group>"; };
+		732D606429C749E100CF48FA /* Itália.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Itália.png"; path = "../../../../../Downloads/Arquivos CampeoesDaCopa/Bandeiras/Itália.png"; sourceTree = "<group>"; };
+		732D606529C749E100CF48FA /* Alemanha Ocidental.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Alemanha Ocidental.png"; path = "../../../../../Downloads/Arquivos CampeoesDaCopa/Bandeiras/Alemanha Ocidental.png"; sourceTree = "<group>"; };
+		732D606629C749E100CF48FA /* África do Sul.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "África do Sul.png"; path = "../../../../../Downloads/Arquivos CampeoesDaCopa/Bandeiras/África do Sul.png"; sourceTree = "<group>"; };
+		732D606729C749E100CF48FA /* Emirados Árabes.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Emirados Árabes.png"; path = "../../../../../Downloads/Arquivos CampeoesDaCopa/Bandeiras/Emirados Árabes.png"; sourceTree = "<group>"; };
+		732D606829C749E100CF48FA /* Austrália.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Austrália.png"; path = "../../../../../Downloads/Arquivos CampeoesDaCopa/Bandeiras/Austrália.png"; sourceTree = "<group>"; };
+		732D606929C749E100CF48FA /* Peru.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Peru.png; path = "../../../../../Downloads/Arquivos CampeoesDaCopa/Bandeiras/Peru.png"; sourceTree = "<group>"; };
+		732D606A29C749E100CF48FA /* Polônia.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Polônia.png"; path = "../../../../../Downloads/Arquivos CampeoesDaCopa/Bandeiras/Polônia.png"; sourceTree = "<group>"; };
+		732D606B29C749E100CF48FA /* Argentina.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Argentina.png; path = "../../../../../Downloads/Arquivos CampeoesDaCopa/Bandeiras/Argentina.png"; sourceTree = "<group>"; };
+		732D606C29C749E100CF48FA /* Alemanha.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Alemanha.png; path = "../../../../../Downloads/Arquivos CampeoesDaCopa/Bandeiras/Alemanha.png"; sourceTree = "<group>"; };
+		732D606D29C749E100CF48FA /* República Tcheca.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "República Tcheca.png"; path = "../../../../../Downloads/Arquivos CampeoesDaCopa/Bandeiras/República Tcheca.png"; sourceTree = "<group>"; };
+		732D606E29C749E100CF48FA /* Croácia.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Croácia.png"; path = "../../../../../Downloads/Arquivos CampeoesDaCopa/Bandeiras/Croácia.png"; sourceTree = "<group>"; };
+		732D606F29C749E100CF48FA /* Dinamarca.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Dinamarca.png; path = "../../../../../Downloads/Arquivos CampeoesDaCopa/Bandeiras/Dinamarca.png"; sourceTree = "<group>"; };
+		732D607029C749E100CF48FA /* Portugal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Portugal.png; path = "../../../../../Downloads/Arquivos CampeoesDaCopa/Bandeiras/Portugal.png"; sourceTree = "<group>"; };
+		732D607129C749E100CF48FA /* Rússia.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Rússia.png"; path = "../../../../../Downloads/Arquivos CampeoesDaCopa/Bandeiras/Rússia.png"; sourceTree = "<group>"; };
+		732D607229C749E100CF48FA /* União Soviética.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "União Soviética.png"; path = "../../../../../Downloads/Arquivos CampeoesDaCopa/Bandeiras/União Soviética.png"; sourceTree = "<group>"; };
+		732D607329C749E100CF48FA /* Paraguai.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Paraguai.png; path = "../../../../../Downloads/Arquivos CampeoesDaCopa/Bandeiras/Paraguai.png"; sourceTree = "<group>"; };
+		732D607429C749E100CF48FA /* China.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = China.png; path = "../../../../../Downloads/Arquivos CampeoesDaCopa/Bandeiras/China.png"; sourceTree = "<group>"; };
+		732D607529C749E100CF48FA /* Inglaterra.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Inglaterra.png; path = "../../../../../Downloads/Arquivos CampeoesDaCopa/Bandeiras/Inglaterra.png"; sourceTree = "<group>"; };
+		732D607629C749E100CF48FA /* Holanda.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Holanda.png; path = "../../../../../Downloads/Arquivos CampeoesDaCopa/Bandeiras/Holanda.png"; sourceTree = "<group>"; };
+		732D607729C749E100CF48FA /* Ucrânia.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Ucrânia.png"; path = "../../../../../Downloads/Arquivos CampeoesDaCopa/Bandeiras/Ucrânia.png"; sourceTree = "<group>"; };
+		732D607829C749E100CF48FA /* Camarões.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Camarões.png"; path = "../../../../../Downloads/Arquivos CampeoesDaCopa/Bandeiras/Camarões.png"; sourceTree = "<group>"; };
+		732D607929C749E100CF48FA /* Arábia Saudita.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Arábia Saudita.png"; path = "../../../../../Downloads/Arquivos CampeoesDaCopa/Bandeiras/Arábia Saudita.png"; sourceTree = "<group>"; };
+		732D607A29C749E100CF48FA /* Alemanha Oriental.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Alemanha Oriental.png"; path = "../../../../../Downloads/Arquivos CampeoesDaCopa/Bandeiras/Alemanha Oriental.png"; sourceTree = "<group>"; };
+		732D607B29C749E100CF48FA /* Hungria.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Hungria.png; path = "../../../../../Downloads/Arquivos CampeoesDaCopa/Bandeiras/Hungria.png"; sourceTree = "<group>"; };
+		732D607C29C749E100CF48FA /* Iugoslávia.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Iugoslávia.png"; path = "../../../../../Downloads/Arquivos CampeoesDaCopa/Bandeiras/Iugoslávia.png"; sourceTree = "<group>"; };
+		732D607D29C749E100CF48FA /* Brasil.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Brasil.png; path = "../../../../../Downloads/Arquivos CampeoesDaCopa/Bandeiras/Brasil.png"; sourceTree = "<group>"; };
+		732D607E29C749E100CF48FA /* Espanha.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Espanha.png; path = "../../../../../Downloads/Arquivos CampeoesDaCopa/Bandeiras/Espanha.png"; sourceTree = "<group>"; };
+		732D607F29C749E100CF48FA /* Bulgária.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Bulgária.png"; path = "../../../../../Downloads/Arquivos CampeoesDaCopa/Bandeiras/Bulgária.png"; sourceTree = "<group>"; };
+		732D608029C749E100CF48FA /* México.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "México.png"; path = "../../../../../Downloads/Arquivos CampeoesDaCopa/Bandeiras/México.png"; sourceTree = "<group>"; };
+		732D608129C749E100CF48FA /* Áustria.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Áustria.png"; path = "../../../../../Downloads/Arquivos CampeoesDaCopa/Bandeiras/Áustria.png"; sourceTree = "<group>"; };
+		732D608229C749E100CF48FA /* Colômbia.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Colômbia.png"; path = "../../../../../Downloads/Arquivos CampeoesDaCopa/Bandeiras/Colômbia.png"; sourceTree = "<group>"; };
+		732D608329C749E100CF48FA /* Romênia.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Romênia.png"; path = "../../../../../Downloads/Arquivos CampeoesDaCopa/Bandeiras/Romênia.png"; sourceTree = "<group>"; };
+		732D608429C749E100CF48FA /* Tchecoslováquia.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Tchecoslováquia.png"; path = "../../../../../Downloads/Arquivos CampeoesDaCopa/Bandeiras/Tchecoslováquia.png"; sourceTree = "<group>"; };
+		732D608529C749E100CF48FA /* Suécia.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Suécia.png"; path = "../../../../../Downloads/Arquivos CampeoesDaCopa/Bandeiras/Suécia.png"; sourceTree = "<group>"; };
+		732D608629C749E200CF48FA /* País de Gales.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "País de Gales.png"; path = "../../../../../Downloads/Arquivos CampeoesDaCopa/Bandeiras/País de Gales.png"; sourceTree = "<group>"; };
+		732D608729C749E200CF48FA /* Estados Unidos.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Estados Unidos.png"; path = "../../../../../Downloads/Arquivos CampeoesDaCopa/Bandeiras/Estados Unidos.png"; sourceTree = "<group>"; };
+		732D608829C749E200CF48FA /* Turquia.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Turquia.png; path = "../../../../../Downloads/Arquivos CampeoesDaCopa/Bandeiras/Turquia.png"; sourceTree = "<group>"; };
+		732D608929C749E200CF48FA /* Argélia.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Argélia.png"; path = "../../../../../Downloads/Arquivos CampeoesDaCopa/Bandeiras/Argélia.png"; sourceTree = "<group>"; };
+		732D608A29C749E200CF48FA /* Bélgica.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Bélgica.png"; path = "../../../../../Downloads/Arquivos CampeoesDaCopa/Bandeiras/Bélgica.png"; sourceTree = "<group>"; };
+		732D60BB29C749F200CF48FA /* Uruguai.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Uruguai.png; path = "../../../../../Downloads/Arquivos CampeoesDaCopa/Bandeiras/Uruguai.png"; sourceTree = "<group>"; };
+		732D60BD29C74A1A00CF48FA /* winners.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = winners.json; path = "../../../../../Downloads/Arquivos CampeoesDaCopa/winners.json"; sourceTree = "<group>"; };
+		732D60C029C74C4D00CF48FA /* WinnersTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WinnersTableViewController.swift; sourceTree = "<group>"; };
+		732D60C329C74CAA00CF48FA /* WorldCupViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorldCupViewController.swift; sourceTree = "<group>"; };
+		732D60C529C74CFE00CF48FA /* WorldCup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorldCup.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,13 +162,97 @@
 			children = (
 				732D5FB329C7487900CF48FA /* AppDelegate.swift */,
 				732D5FB529C7487900CF48FA /* SceneDelegate.swift */,
-				732D5FB729C7487900CF48FA /* ViewController.swift */,
-				732D5FB929C7487900CF48FA /* Main.storyboard */,
+				732D5FC729C7494500CF48FA /* Files */,
+				732D60C729C74D0D00CF48FA /* Models */,
+				732D60BF29C74C1400CF48FA /* Views */,
+				732D60C229C74C6A00CF48FA /* Controllers */,
 				732D5FBC29C7487A00CF48FA /* Assets.xcassets */,
-				732D5FBE29C7487A00CF48FA /* LaunchScreen.storyboard */,
 				732D5FC129C7487A00CF48FA /* Info.plist */,
 			);
 			path = CampeoesDaCopa;
+			sourceTree = "<group>";
+		};
+		732D5FC729C7494500CF48FA /* Files */ = {
+			isa = PBXGroup;
+			children = (
+				732D606629C749E100CF48FA /* África do Sul.png */,
+				732D606529C749E100CF48FA /* Alemanha Ocidental.png */,
+				732D607A29C749E100CF48FA /* Alemanha Oriental.png */,
+				732D606C29C749E100CF48FA /* Alemanha.png */,
+				732D607929C749E100CF48FA /* Arábia Saudita.png */,
+				732D608929C749E200CF48FA /* Argélia.png */,
+				732D60BD29C74A1A00CF48FA /* winners.json */,
+				732D606B29C749E100CF48FA /* Argentina.png */,
+				732D606829C749E100CF48FA /* Austrália.png */,
+				732D608129C749E100CF48FA /* Áustria.png */,
+				732D608A29C749E200CF48FA /* Bélgica.png */,
+				732D606329C749E100CF48FA /* Bolívia.png */,
+				732D607D29C749E100CF48FA /* Brasil.png */,
+				732D607F29C749E100CF48FA /* Bulgária.png */,
+				732D607829C749E100CF48FA /* Camarões.png */,
+				732D606129C749E100CF48FA /* Chile.png */,
+				732D607429C749E100CF48FA /* China.png */,
+				732D608229C749E100CF48FA /* Colômbia.png */,
+				732D606229C749E100CF48FA /* Coréia do Sul.png */,
+				732D606029C749E100CF48FA /* Costa Rica.png */,
+				732D606E29C749E100CF48FA /* Croácia.png */,
+				732D606F29C749E100CF48FA /* Dinamarca.png */,
+				732D606729C749E100CF48FA /* Emirados Árabes.png */,
+				732D607E29C749E100CF48FA /* Espanha.png */,
+				732D608729C749E200CF48FA /* Estados Unidos.png */,
+				732D605E29C749E100CF48FA /* França.png */,
+				732D605D29C749E100CF48FA /* Gana.png */,
+				732D607629C749E100CF48FA /* Holanda.png */,
+				732D605F29C749E100CF48FA /* Honduras.png */,
+				732D607B29C749E100CF48FA /* Hungria.png */,
+				732D607529C749E100CF48FA /* Inglaterra.png */,
+				732D606429C749E100CF48FA /* Itália.png */,
+				732D607C29C749E100CF48FA /* Iugoslávia.png */,
+				732D608029C749E100CF48FA /* México.png */,
+				732D605B29C749E100CF48FA /* Noruega.png */,
+				732D608629C749E200CF48FA /* País de Gales.png */,
+				732D60BB29C749F200CF48FA /* Uruguai.png */,
+				732D607329C749E100CF48FA /* Paraguai.png */,
+				732D606929C749E100CF48FA /* Peru.png */,
+				732D606A29C749E100CF48FA /* Polônia.png */,
+				732D607029C749E100CF48FA /* Portugal.png */,
+				732D606D29C749E100CF48FA /* República Tcheca.png */,
+				732D608329C749E100CF48FA /* Romênia.png */,
+				732D607129C749E100CF48FA /* Rússia.png */,
+				732D608529C749E100CF48FA /* Suécia.png */,
+				732D605C29C749E100CF48FA /* Suíça.png */,
+				732D608429C749E100CF48FA /* Tchecoslováquia.png */,
+				732D608829C749E200CF48FA /* Turquia.png */,
+				732D607729C749E100CF48FA /* Ucrânia.png */,
+				732D607229C749E100CF48FA /* União Soviética.png */,
+			);
+			path = Files;
+			sourceTree = "<group>";
+		};
+		732D60BF29C74C1400CF48FA /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				732D5FB929C7487900CF48FA /* Main.storyboard */,
+				732D5FBE29C7487A00CF48FA /* LaunchScreen.storyboard */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		732D60C229C74C6A00CF48FA /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				732D60C029C74C4D00CF48FA /* WinnersTableViewController.swift */,
+				732D60C329C74CAA00CF48FA /* WorldCupViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		732D60C729C74D0D00CF48FA /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				732D60C529C74CFE00CF48FA /* WorldCup.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,9 +313,59 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				732D60A129C749E200CF48FA /* Rússia.png in Resources */,
+				732D609F29C749E200CF48FA /* Dinamarca.png in Resources */,
+				732D608E29C749E200CF48FA /* França.png in Resources */,
+				732D609B29C749E200CF48FA /* Argentina.png in Resources */,
+				732D60B329C749E200CF48FA /* Romênia.png in Resources */,
+				732D60AB29C749E200CF48FA /* Hungria.png in Resources */,
+				732D60A729C749E200CF48FA /* Ucrânia.png in Resources */,
+				732D608D29C749E200CF48FA /* Gana.png in Resources */,
+				732D609429C749E200CF48FA /* Itália.png in Resources */,
 				732D5FC029C7487A00CF48FA /* LaunchScreen.storyboard in Resources */,
+				732D609E29C749E200CF48FA /* Croácia.png in Resources */,
+				732D60B029C749E200CF48FA /* México.png in Resources */,
+				732D609A29C749E200CF48FA /* Polônia.png in Resources */,
+				732D60A329C749E200CF48FA /* Paraguai.png in Resources */,
+				732D60A829C749E200CF48FA /* Camarões.png in Resources */,
+				732D608F29C749E200CF48FA /* Honduras.png in Resources */,
+				732D60BC29C749F200CF48FA /* Uruguai.png in Resources */,
 				732D5FBD29C7487A00CF48FA /* Assets.xcassets in Resources */,
+				732D60A029C749E200CF48FA /* Portugal.png in Resources */,
+				732D60B129C749E200CF48FA /* Áustria.png in Resources */,
+				732D60B929C749E200CF48FA /* Argélia.png in Resources */,
+				732D60AF29C749E200CF48FA /* Bulgária.png in Resources */,
+				732D60B429C749E200CF48FA /* Tchecoslováquia.png in Resources */,
+				732D609129C749E200CF48FA /* Chile.png in Resources */,
+				732D60BE29C74A1A00CF48FA /* winners.json in Resources */,
+				732D609329C749E200CF48FA /* Bolívia.png in Resources */,
 				732D5FBB29C7487900CF48FA /* Main.storyboard in Resources */,
+				732D609929C749E200CF48FA /* Peru.png in Resources */,
+				732D60AE29C749E200CF48FA /* Espanha.png in Resources */,
+				732D60BA29C749E200CF48FA /* Bélgica.png in Resources */,
+				732D60B729C749E200CF48FA /* Estados Unidos.png in Resources */,
+				732D60A229C749E200CF48FA /* União Soviética.png in Resources */,
+				732D60A929C749E200CF48FA /* Arábia Saudita.png in Resources */,
+				732D609529C749E200CF48FA /* Alemanha Ocidental.png in Resources */,
+				732D609729C749E200CF48FA /* Emirados Árabes.png in Resources */,
+				732D60B629C749E200CF48FA /* País de Gales.png in Resources */,
+				732D60B829C749E200CF48FA /* Turquia.png in Resources */,
+				732D60AD29C749E200CF48FA /* Brasil.png in Resources */,
+				732D60A429C749E200CF48FA /* China.png in Resources */,
+				732D609629C749E200CF48FA /* África do Sul.png in Resources */,
+				732D609829C749E200CF48FA /* Austrália.png in Resources */,
+				732D608C29C749E200CF48FA /* Suíça.png in Resources */,
+				732D60B529C749E200CF48FA /* Suécia.png in Resources */,
+				732D609229C749E200CF48FA /* Coréia do Sul.png in Resources */,
+				732D609C29C749E200CF48FA /* Alemanha.png in Resources */,
+				732D60A529C749E200CF48FA /* Inglaterra.png in Resources */,
+				732D60B229C749E200CF48FA /* Colômbia.png in Resources */,
+				732D60AC29C749E200CF48FA /* Iugoslávia.png in Resources */,
+				732D60AA29C749E200CF48FA /* Alemanha Oriental.png in Resources */,
+				732D608B29C749E200CF48FA /* Noruega.png in Resources */,
+				732D609D29C749E200CF48FA /* República Tcheca.png in Resources */,
+				732D609029C749E200CF48FA /* Costa Rica.png in Resources */,
+				732D60A629C749E200CF48FA /* Holanda.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,8 +376,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				732D5FB829C7487900CF48FA /* ViewController.swift in Sources */,
+				732D60C129C74C4D00CF48FA /* WinnersTableViewController.swift in Sources */,
 				732D5FB429C7487900CF48FA /* AppDelegate.swift in Sources */,
+				732D60C629C74CFE00CF48FA /* WorldCup.swift in Sources */,
+				732D60C429C74CAA00CF48FA /* WorldCupViewController.swift in Sources */,
 				732D5FB629C7487900CF48FA /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
