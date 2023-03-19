@@ -8,7 +8,7 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--Root View Controller-->
+        <!--Campeões-->
         <scene sceneID="5mH-69-UDv">
             <objects>
                 <tableViewController id="XtF-bZ-jS5" customClass="WinnersTableViewController" customModule="CampeoesDaCopa" customModuleProvider="target" sceneMemberID="viewController">
@@ -33,7 +33,7 @@
                             </constraints>
                         </view>
                         <prototypes>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="cell" rowHeight="144" id="ehL-Vy-oIG">
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="none" indentationWidth="10" reuseIdentifier="cell" rowHeight="144" id="ehL-Vy-oIG" customClass="WorldCupTableViewCell" customModule="CampeoesDaCopa" customModuleProvider="target">
                                 <rect key="frame" x="0.0" y="188" width="430" height="144"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="ehL-Vy-oIG" id="Kgz-R9-AyE">
@@ -95,7 +95,7 @@
                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" verticalHuggingPriority="251" text="Brasil" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mgw-XQ-neE">
                                             <rect key="frame" x="76" y="101" width="291" height="10"/>
                                             <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="16"/>
-                                            <color key="textColor" red="0.87058823529999996" green="0.4431372549" blue="0.17254901959999999" alpha="1" colorSpace="calibratedRGB"/>
+                                            <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                             <nil key="highlightedColor"/>
                                         </label>
                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="1 (5)" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="q9H-DX-4BI">
@@ -132,6 +132,17 @@
                                         <constraint firstAttribute="bottomMargin" secondItem="mgw-XQ-neE" secondAttribute="bottom" constant="22" id="ti7-Cj-04X"/>
                                     </constraints>
                                 </tableViewCellContentView>
+                                <connections>
+                                    <outlet property="ivVice" destination="2Se-nE-QOF" id="Zdo-fl-vtn"/>
+                                    <outlet property="ivWinner" destination="axm-Ae-a4Q" id="1ha-2q-F6z"/>
+                                    <outlet property="lbCountry" destination="zb9-1r-hQU" id="0WJ-tp-wwv"/>
+                                    <outlet property="lbVice" destination="mgw-XQ-neE" id="MWV-xd-TQX"/>
+                                    <outlet property="lbViceScore" destination="q9H-DX-4BI" id="raa-8G-oTc"/>
+                                    <outlet property="lbWinner" destination="8QO-cQ-l1x" id="G12-iZ-b1W"/>
+                                    <outlet property="lbWinnerScore" destination="O7H-m1-Hhd" id="anH-3b-P7j"/>
+                                    <outlet property="lbYear" destination="rK4-4m-YzC" id="Vwt-5W-hMn"/>
+                                    <segue destination="iuZ-b6-YON" kind="show" id="p8X-0r-WIz"/>
+                                </connections>
                             </tableViewCell>
                         </prototypes>
                         <connections>
@@ -139,7 +150,7 @@
                             <outlet property="delegate" destination="XtF-bZ-jS5" id="1kE-nj-ham"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" title="Root View Controller" id="BRI-bj-Wk1"/>
+                    <navigationItem key="navigationItem" title="Campeões" id="BRI-bj-Wk1"/>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ou5-vN-Y91" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -171,6 +182,7 @@
                         <viewLayoutGuide key="safeArea" id="4RP-KE-V8j"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
+                    <navigationItem key="navigationItem" id="jWG-84-bId"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="2vR-wE-YqD" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>

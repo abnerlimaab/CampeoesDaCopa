@@ -47,14 +47,19 @@ class WinnersTableViewController: UITableViewController {
         // #warning Incomplete implementation, return the number of rows
         return worldCups.count
     }
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        let vc = segue.destination as! WorldCupViewController
+        let worldCup = worldCups[tableView.indexPathForSelectedRow!.row]
+        
+        vc.worldCup = worldCup
+    }
 
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCell(withIdentifier: "cell", for: indexPath)
+        let cell = tableView.dequeueReusableCell(withIdentifier: "cell", for: indexPath) as! WorldCupTableViewCell
 
         let worldCup = worldCups[indexPath.row]
-        cell.textLabel?.text = "Copa \(worldCup.year) - \(worldCup.country)"
-        cell.detailTextLabel?.text = "\(worldCup.winner) vs \(worldCup.vice)"
-        cell.imageView?.image = UIImage(named: "\(worldCup.winner).png")
+        cell.prepare(with: worldCup)
 
         return cell
     }
